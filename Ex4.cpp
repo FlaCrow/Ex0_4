@@ -3,6 +3,8 @@
 int divi(int n, int a, int b)
 {
 	int m;
+	if(a<0) a=-a;
+	if(b<0) b=-b;	
 	m = n / a + n / b;
 	return m;
 }
